@@ -1,105 +1,5 @@
-<!DOCTYPE html>
-<html class="no-js" lang="en">
-  
-<head>
-    <!-- Basic Page Needs
-    ================================================== -->
-    <meta charset="utf-8">
-    <!--[if IE]><meta http-equiv="x-ua-compatible" content="IE=9" /><![endif]-->
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Lavanderia da Cidade - Roupa Suja não se lava em Casa!</title>
-    <meta name="description" content="Lavanderia da Cidade - Roupa Suja não se lava em Casa!">
-    <meta name="keywords" content="lavanderia da cidade, lavanderia, roupa limpa, lavagem">
-    <meta name="author" content="feliperomero.com.br"> 
-	
-	<!-- ==============================================
-	Favicons
-	=============================================== -->
-	<link rel="shortcut icon" href="images/favicon.ico">
-	<link rel="apple-touch-icon" href="images/apple-touch-icon.png">
-	<link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
-	<link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
-	
-	<!-- ==============================================
-	CSS
-	=============================================== -->
-	<link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
-	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
-	
-	
-	
-	<!-- ==============================================
-	Google Fonts
-	=============================================== -->
-	<link href='http://fonts.googleapis.com/css?family=Raleway:400,700,900' rel='stylesheet' type='text/css'>
-	
-	
-	<!-- Custom Stylesheet -->
-	<link rel="stylesheet" type="text/css" href="css/style.css" />	
-	
-    <script type="text/javascript" src="js/modernizr.min.js"></script>
+<?php include('common/header.php'); ?>
 
-</head>
-
-<body>
-	
-	<!-- Load page -->
-	<div class="animationload">
-		<div class="loader"></div>
-	</div>
-	
-	
-	<!-- NAVBAR SECTION -->
-	<div class="navbar navbar-main navbar-fixed-top">
-		<div class="header-top">
-			<div class="container">
-				<div class="row">
-					<div class="col-xs-12 col-sm-7 col-md-7 col-lg-7">
-						<div class="info">
-							<div class="info-item">
-								<span class="fa fa-phone"></span> Fone 13 3468 1056
-							</div>
-							<div class="info-item">
-								<span class="fa fa-envelope-o"></span> <a href="mailto:contato@lavanderiadacidade.com.br" title="">E-mail contato@lavanderiadacidade.com.br</a>
-							</div>
-							
-						</div>
-					</div>
-					<div class="col-xs-12 col-sm-5 col-md-5 col-lg-5">
-						<div class="top-sosmed pull-right">
-							<a href="http://fb.com/lavcidade" target="_blank" title="Facebook - Lavanderia da Cidade"><span class="fa fa-facebook"></span></a>
-							<a href="http://instagram.com/lavcidade" title="Instagram - Lavanderia da Cidade"><span class="fa fa-instagram"></span></a>
-						</div>
-					</div>
-					
-				</div>
-			</div>
-		</div>
-		<div class="container">
-			<div class="navbar-header">
-				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-				<span class="icon-bar"></span>
-				<span class="icon-bar"></span>
-				<span class="icon-bar"></span>
-				</button>
-				<a class="navbar-brand" href="index.html"><img src="images/lavanderia-da-cidade.png" alt="" /></a>
-				
-			</div>
-			<div class="navbar-collapse collapse">
-				<ul class="nav navbar-nav navbar-right navbar-menu">
-					<li><a href="/">HOME</a></li>
-					<li><a href="about.html">SOBRE</a></li>
-					<li><a href="services.html">SERVIÇOS</a></li>
-					<li><a href="pricing.html">PREÇOS</a></li>
-					<li><a href="faq.html">FAQ</a></li>
-					<li><a href="blog.html">BLOG</a></li>
-					<li><a href="contact.html">CONTATO</a></li>
-				</ul>
-			</div>
-		</div>
-    </div>
-
- 
 	<!-- BANNER -->
 	<div class="section banner" >
 		<div class="container pos-relative">
@@ -111,8 +11,8 @@
 				<a href="#" title="" class="btn btn-default">VEJA MAIS</a>
 			</div>
 		</div>
-		<div class="imgbg" style="background:url('images/homeslide.jpg') no-repeat center center;   -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover">
-			<img src="images/homeslide.jpg" alt="">
+		<div class="imgbg" style="background:url('resources/images/homeslide.jpg') no-repeat center center;   -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover">
+			<img src="resources/images/homeslide.jpg" alt="">
 		</div>
 		<div class="work-info">
 			<div class="container">
@@ -139,7 +39,7 @@
 						<span class="fa fa-envelope"></span>
 					</div>
 					<div class="work-info-body">
-						Suporte técnico? Mande-nos um e-mail
+						Mande-nos um e-mail
 						<div class="work-info-lead"><a href="mailto:contato@lavanderiadacidade.com.br" title="">contato@lavanderiadacidade.com.br</a></div>
 					</div>
 				</div>
@@ -168,7 +68,7 @@
 							<div class="fa fa-flash"></div>
 						</div>
 						<div class="ket">
-							<h4>EXPERT CLEANER</h4>
+							<h4>ROUPAS EM GERAL</h4>
 							<p>We give our best work for this template. We make with a love. Our template have diffrent style and layout in every each.</p>
 						</div>
 					</div>
@@ -179,7 +79,7 @@
 							<div class="fa fa-money"></div>
 						</div>
 						<div class="ket">
-							<h4>AFFORDABLE PRICE</h4>
+							<h4>CAMA, MESA E BANHO</h4>
 							<p>Our templates price really affordable. Only $21 for one beutiful templates, you will get free update  and awesome support.</p>
 						</div>
 					</div>
@@ -229,7 +129,7 @@
 				<div class="col-sm-6 col-md-4">
 					<div class="services-item left">
 						<div class="icon">
-							<img src="images/home-service-img-1.jpg" alt="" class="img-circle" />
+							<img src="resources/images/home-service-img-1.jpg" alt="" class="img-circle" />
 						</div>
 						<div class="ket">
 							<h4>COIN LAUNDRY</h4>
@@ -238,7 +138,7 @@
 					</div>
 					<div class="services-item left">
 						<div class="icon">
-							<img src="images/home-service-img-2.jpg" alt="" class="img-circle" />
+							<img src="resources/images/home-service-img-2.jpg" alt="" class="img-circle" />
 						</div>
 						<div class="ket">
 							<h4>REDENTIAL LAUNDRY</h4>
@@ -247,7 +147,7 @@
 					</div>
 					<div class="services-item left">
 						<div class="icon">
-							<img src="images/home-service-img-3.jpg" alt="" class="img-circle" />
+							<img src="resources/images/home-service-img-3.jpg" alt="" class="img-circle" />
 						</div>
 						<div class="ket">
 							<h4>BUSINESS LAUNDRY</h4>
@@ -260,7 +160,7 @@
 				<div class="col-sm-6 col-md-4 col-md-offset-4">
 					<div class="services-item right">
 						<div class="icon">
-							<img src="images/home-service-img-4.jpg" alt="" class="img-circle" />
+							<img src="resources/images/home-service-img-4.jpg" alt="" class="img-circle" />
 						</div>
 						<div class="ket">
 							<h4>COIN LAUNDRY</h4>
@@ -269,7 +169,7 @@
 					</div>
 					<div class="services-item right">
 						<div class="icon">
-							<img src="images/home-service-img-5.jpg" alt="" class="img-circle" />
+							<img src="resources/images/home-service-img-5.jpg" alt="" class="img-circle" />
 						</div>
 						<div class="ket">
 							<h4>REDENTIAL LAUNDRY</h4>
@@ -278,7 +178,7 @@
 					</div>
 					<div class="services-item right">
 						<div class="icon">
-							<img src="images/home-service-img-6.jpg" alt="" class="img-circle" />
+							<img src="resources/images/home-service-img-6.jpg" alt="" class="img-circle" />
 						</div>
 						<div class="ket">
 							<h4>BUSINESS LAUNDRY</h4>
@@ -290,7 +190,7 @@
 				
 				<div class="col-sm-12 col-md-4 col-md-offset-4">
 					<div class="services-item-image">
-						<img src="images/service_img_home2-u24208-fr.png" alt="" />
+						<img src="resources/images/service_img_home2-u24208-fr.png" alt="" />
 					</div>
 				</div>
 				
@@ -376,7 +276,7 @@
 				<div class="col-sm-12 col-md-6">
 					<div class="testimonials-item">
 						<div class="people">
-							<img src="images/home-testimony-img-1.jpg" alt="" class="img-circle" />
+							<img src="resources/images/home-testimony-img-1.jpg" alt="" class="img-circle" />
 							<h3>John Deol</h3>
 							<p>Manager Google</p>
 						</div>
@@ -392,7 +292,7 @@
 				<div class="col-sm-12 col-md-6">
 					<div class="testimonials-item">
 						<div class="people">
-							<img src="images/home-testimony-img-2.jpg" alt="" class="img-circle" />
+							<img src="resources/images/home-testimony-img-2.jpg" alt="" class="img-circle" />
 							<h3>Sonny Deol</h3>
 							<p>Jonitor DC</p>
 						</div>
@@ -408,7 +308,7 @@
 				<div class="col-sm-12 col-md-6">
 					<div class="testimonials-item">
 						<div class="people">
-							<img src="images/home-testimony-img-3.jpg" alt="" class="img-circle" />
+							<img src="resources/images/home-testimony-img-3.jpg" alt="" class="img-circle" />
 							<h3>Jenny Deol</h3>
 							<p>CEO Layer</p>
 						</div>
@@ -424,7 +324,7 @@
 				<div class="col-sm-12 col-md-6">
 					<div class="testimonials-item">
 						<div class="people">
-							<img src="images/home-testimony-img-4.jpg" alt="" class="img-circle" />
+							<img src="resources/images/home-testimony-img-4.jpg" alt="" class="img-circle" />
 							<h3>Rambo Deol</h3>
 							<p>Dota Player</p>
 						</div>
@@ -448,37 +348,37 @@
 				
 				<div class="col-xs-6 col-sm-6 col-md-2 col-lg-2">
 					<div class="client-img">
-						<img src="images/client1.png" alt="" class="img-responsive" />
+						<img src="resources/images/client1.png" alt="" class="img-responsive" />
 					</div>
 				</div>
 				
 				<div class="col-xs-6 col-sm-6 col-md-2 col-lg-2">
 					<div class="client-img">
-						<img src="images/client2.png" alt="" class="img-responsive" />
+						<img src="resources/images/client2.png" alt="" class="img-responsive" />
 					</div>
 				</div>
 				
 				<div class="col-xs-6 col-sm-6 col-md-2 col-lg-2">
 					<div class="client-img">
-						<img src="images/client3.png" alt="" class="img-responsive" />
+						<img src="resources/images/client3.png" alt="" class="img-responsive" />
 					</div>
 				</div>
 				
 				<div class="col-xs-6 col-sm-6 col-md-2 col-lg-2">
 					<div class="client-img">
-						<img src="images/client1.png" alt="" class="img-responsive" />
+						<img src="resources/images/client1.png" alt="" class="img-responsive" />
 					</div>
 				</div>
 				
 				<div class="col-xs-6 col-sm-6 col-md-2 col-lg-2">
 					<div class="client-img">
-						<img src="images/client2.png" alt="" class="img-responsive" />
+						<img src="resources/images/client2.png" alt="" class="img-responsive" />
 					</div>
 				</div>
 				
 				<div class="col-xs-6 col-sm-6 col-md-2 col-lg-2">
 					<div class="client-img">
-						<img src="images/client3.png" alt="" class="img-responsive" />
+						<img src="resources/images/client3.png" alt="" class="img-responsive" />
 					</div>
 				</div>
 				
@@ -507,7 +407,7 @@
 							<div class="icon-news">
 								<div class="fa fa-image"></div>
 							</div>
-							<img src="images/blog-img-1.jpg" alt="" class="img-responsive" />
+							<img src="resources/images/blog-img-1.jpg" alt="" class="img-responsive" />
 						</div>
 						<div class="item-body">
 							<div class="description">
@@ -534,7 +434,7 @@
 							<div class="icon-news">
 								<div class="fa fa-image"></div>
 							</div>
-							<img src="images/blog-img-2.jpg" alt="" class="img-responsive" />
+							<img src="resources/images/blog-img-2.jpg" alt="" class="img-responsive" />
 						</div>
 						<div class="item-body">
 							<div class="description">
@@ -561,7 +461,7 @@
 							<div class="icon-news">
 								<div class="fa fa-image"></div>
 							</div>
-							<img src="images/blog-img-1c.jpg" alt="" class="img-responsive" />
+							<img src="resources/images/blog-img-1c.jpg" alt="" class="img-responsive" />
 						</div>
 						<div class="item-body">
 							<div class="description">
@@ -586,157 +486,4 @@
 		</div>
 	</div> -->
 	
-	<!-- FOOTER SECTION -->
-	<div class="footer">
-	
-		<div class="f-desc">
-			<div class="container">
-				<div class="row">
-					<div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
-						<div class="footer-item">
-							<div class="footer-logo">
-								<img src="images/lavanderia-da-cidade-footer.png" alt="" />
-							</div>
-							<p>This template is a micro niche for business categories, namely laundry business. there was an excess of this template is using adobe muse making it easier to edit, add content, and without having to use the coding in the edit.</p>
-							<div class="footer-sosmed">
-								<a href="http://fb.com/lavcidade" title="Facebook - Lavanderia da Cidade">
-									<div class="item">
-										<i class="fa fa-facebook"></i>
-									</div>
-								</a>
-								<a href="http://instagram.com/lavcidade" title="Instagram - Lavanderia da Cidade">
-									<div class="item">
-										<i class="fa fa-instagram"></i>
-									</div>
-								</a>
-							</div>
-						</div>
-					</div>
-					<!--<div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
-						<div class="footer-item">
-					 		<div class="footer-title">
-								<h4>RECENT POST</h4>
-							</div>
-							<div class="footer-blog-item">
-								<div class="footer-blog-lead">
-									<a href="blog-1.html" title="">How to laundry your suit office - tips and trick.</a>
-								</div>
-								<div class="footer-blog-date">
-									May 29, 2015
-								</div>
-							</div>
-							<div class="footer-blog-item">
-								<div class="footer-blog-lead">
-									<a href="blog-1.html" title="">How to laundry your suit office - tips and trick.</a>
-								</div>
-								<div class="footer-blog-date">
-									May 29, 2015
-								</div>
-							</div>
-							
-						</div>
-					</div> -->
-					<div class="col-xs-12 col-sm-6 col-md-34 col-lg-4">
-						<div class="footer-item">
-							<div class="footer-title">
-								<h4>NEWSLETTER</h4>
-							</div>
-							<div class="footer-form">
-								<form action="#">
-									<div class="form-group">
-										<input type="text" class="form-control" placeholder="Nome">
-									</div>
-									<div class="form-group">
-										<input type="text" class="form-control" placeholder="E-mail">
-									</div>
-									<div class="form-group">
-										<button type="submit" class="btn btn-default">ENVIAR</button>
-									</div>
-									
-								</form>
-							</div>
-							
-						</div>
-					</div>
-					<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
-						<div class="footer-item">
-							<div class="footer-title">
-								<h4>FALE CONOSCO</h4>
-							</div>
-							<div class="footer-getintouch">
-								<div class="footer-getintouch-item">
-									<div class="icon">
-										<b class="fa fa-phone"></b>
-									</div>
-									<div class="desc">
-										<div class="desc-1">Fone</div>
-										<div class="desc-2">:</div>
-										<div class="desc-3">+55 13 3468 1056</div>
-									</div>
-								</div>
-								<div class="footer-getintouch-item">
-									<div class="icon">
-										<b class="fa fa-envelope "></b>
-									</div>
-									<div class="desc">
-										<div class="desc-1">E-mail</div>
-										<div class="desc-2">:</div>
-										<div class="desc-3"><a href="mailto:contato@lavanderiadacidade.com.br" title="">contato@lavanderiadacidade.com.br</a></div>
-									</div>
-								</div>
-								<div class="footer-getintouch-item">
-									<div class="icon">
-										<b class="fa fa-globe"></b>
-									</div>
-									<div class="desc">
-										<div class="desc-1">Site </div>
-										<div class="desc-2">:</div>
-										<div class="desc-3">www.lavanderiadacidade.com.br</div>
-									</div>
-								</div>
-								<div class="footer-getintouch-item">
-									<div class="icon">
-										<b class="fa fa-map-marker"></b>
-									</div>
-									<div class="desc">
-										<div class="desc-1">Endereço </div>
-										<div class="desc-2">:</div>
-										<div class="desc-3">Rua Messia Assu, 151 <br>Boa Vista - São Vicente/SP</div>
-									</div>
-								</div>
-								
-							</div>
-						</div>
-						
-					</div>
-					
-				</div>
-			</div>
-				
-		</div>
-		
-		<div class="fcopy">
-			<div class="container">
-				<div class="row">
-					<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-						<p class="ftex">&copy; 2016 Lavanderia da Cidade - Todos os direitos reservados</p> 
-					</div>
-				</div>
-			</div>
-		</div>
-		
-	</div>
-	
-	
-	
-	
-	<script type="text/javascript" src="js/jquery.min.js"></script>
-	<script type='text/javascript' src='https://maps.google.com/maps/api/js?sensor=false&amp;ver=4.1.5'></script>
-	<script type='text/javascript' src='js/jqBootstrapValidation.js'></script>
-	<script type="text/javascript" src="js/bootstrap.min.js"></script>
-	<script type="text/javascript" src="js/bootstrap-hover-dropdown.min.js"></script>
-	
-	<script type="text/javascript" src="js/script.js"></script>
-	
-</body>
-</html>
+	<?php include('common/footer.php'); ?>
